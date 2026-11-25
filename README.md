@@ -1,16 +1,41 @@
-# React + Vite
+# CineClick
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Plataforma de comercio electrónico dedicada a la exploración, búsqueda y compra de películas en formato digital.
 
-Currently, two official plugins are available:
+## Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **React** – Biblioteca principal para la construcción de la interfaz de usuario.
+* **Vite** – Entorno de desarrollo y empaquetador rápido.
+* **JavaScript (ES6+)** – Lógica de la aplicación.
 
-## React Compiler
+## Instalación y ejecución local
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Sigue estos pasos para correr el proyecto en tu computadora:
 
-## Expanding the ESLint configuration
+1. Clonar el repositorio:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   ```bash
+   git clone https://github.com/Lucas9578/e-commerce-peliculas
+   ```
+
+2. Entrar a la carpeta del proyecto:
+
+   ```bash
+   cd e-commerce-peliculas
+   ```
+
+3. Instalar las dependencias:
+
+   ```bash
+   npm install
+   ```
+
+4. Iniciar la aplicación:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Abrir en el navegador:
+
+Accede a `http://localhost:5173` (o a la dirección local que indique tu terminal).
